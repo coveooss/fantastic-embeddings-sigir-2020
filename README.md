@@ -21,7 +21,8 @@ and terminated on *Shop B*; items in each list are ordered chronologically, and 
 an identifier of the shop (hashed) first, followed by `_` and an hashed identifier of the product the shopper interacted with. A sample
 `json` file is provided in this repo: cross-shop session `["SHOP1_SKU21", "SHOP1_SKU32", "SHOP2_SKU13"]` means that an anonymous
 shopper interacted with products `21` and `32` on the first shop, then browsed to the second shop and interacted with `13`. Please remember that
-each shop has a different identifier policy, which makes the aligning problem interesting. 
+each shop has a different identifier policy, which makes the aligning problem interesting. The cross-shop dataset contains a total
+of 12.259 sessions.
 * two `pickled Python dictionaries` with the `original_vectors` label, one for each shop: 
 they contain a map between product identifiers (hashed in the same way as in the cross-shop dataset)
 and related product embeddings _as trained separately for each shop_.
