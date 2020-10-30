@@ -8,7 +8,7 @@ paper [Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Mult
 
 ### Data Download
 
-The dataset is available for _research and educational_ purposes at this [page](https://www.coveo.com/en).
+The dataset is available for _research and educational_ purposes at this [page](https://www.coveo.com/en/ailabs/embeddings-and-how-to-align-them-zero-shot-inference-in-a-multi-shop-scenario).
 To obtain the dataset, you are required to fill a form with information about you and your institution, and
 agree to the _Terms And Conditions_ for fair usage of the data.
 
@@ -21,7 +21,7 @@ The dataset is provided in five files inside a `zip` archive:
  
 * a `json` file, structured as list of lists. Each list contains a cross-shop session, that is, a shopping session initiated on *Shop A*
 and terminated on *Shop B*; items in each list are ordered chronologically, and they all have the syntax `SHOP1_SKU41`, that is
-an identifier of the shop (hashed) first, followed by `_` and an hashed identifier of the product the shopper interacted with. A sample
+an identifier of the shop (hashed) first, followed by `_` and a hashed identifier of the product the shopper interacted with. A sample
 `json` file is provided in this repo: cross-shop session `["SHOP1_SKU21", "SHOP1_SKU32", "SHOP2_SKU13"]` means that an anonymous
 shopper interacted with products `21` and `32` on the first shop, then browsed to the second shop and interacted with `13`. Please remember that
 each shop has a different identifier policy, which makes the aligning problem interesting. The cross-shop dataset contains a total
@@ -36,7 +36,7 @@ and related product embeddings, _after the alignment proposed in the [paper](htt
 
 We refer the reader to the original [work](https://arxiv.org/abs/2007.14906) for an extended explanation 
 of the alignment problem. Usage of this data implies the acceptance of the _Terms And Conditions_ as set forward in
-the download page.
+the [download page](https://www.coveo.com/en/ailabs/embeddings-and-how-to-align-them-zero-shot-inference-in-a-multi-shop-scenario).
 
 ### Contacts
 
@@ -66,7 +66,6 @@ If you make use of this dataset, please cite our work:
   author = {Bianchi, Federico and Tagliabue, Jacopo and Yu, Bingqing and Bigon, Luca and Greco, Ciro},
   url = {arXiv preprint arXiv:2007.14906},
   booktitle = {Proceedings of ACM SIGIR Workshop on eCommerce (SIGIR eCom’20)},
-  month = { jul },
   year = {2020}
 }
 ```
