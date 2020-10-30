@@ -44,7 +44,7 @@ For questions about the [paper](https://arxiv.org/abs/2007.14906) or the dataset
 please reach out to [Jacopo Tagliabue](https://www.linkedin.com/in/jacopotagliabue/).
 
 ### Acknowledgments
-The original paper is a collaboration between industry and academia, over a dataset gently provided by [Coveo](https://www.coveo.com/en).
+The original paper is a collaboration between industry and academia, over a dataset gently provided by [Coveo](https://coveo.com/en/ailabs/embeddings-and-how-to-align-them-zero-shot-inference-in-a-multi-shop-scenario).
 The authors of the paper are:
 
 * [Federico Bianchi](https://www.linkedin.com/in/federico-bianchi-3b7998121/) - Postdoctoral Researcher at Università Bocconi
