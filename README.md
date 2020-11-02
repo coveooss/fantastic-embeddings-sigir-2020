@@ -64,8 +64,9 @@ If you make use of this dataset, please cite our work:
 @inproceedings{BianchiSIGIReCom2020,
   title = {Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Multi-Shop Scenario},
   author = {Bianchi, Federico and Tagliabue, Jacopo and Yu, Bingqing and Bigon, Luca and Greco, Ciro},
-  url = {arXiv preprint arXiv:2007.14906},
-  booktitle = {Proceedings of ACM SIGIR Workshop on eCommerce (SIGIR eCom’20)},
+  url = {https://arxiv.org/abs/2007.14906},
+  booktitle = {Proceedings of the SIGIR 2020 eCom workshop, July 2020, Virtual Event, published at
+http://ceur-ws.org (to appear)},
   year = {2020}
 }
 ```
