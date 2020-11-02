@@ -13,7 +13,7 @@ To obtain the dataset, you are required to fill a form with information about yo
 agree to the _Terms And Conditions_ for fair usage of the data.
 
 For convenience, _Terms And Conditions_ are also included in a pure `txt` format in this repo: 
-usage of the data imply the acceptance of these _Terms And Conditions_.
+usage of the data implies the acceptance of these _Terms And Conditions_.
 
 ### Data Structure
 
