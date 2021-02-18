@@ -1,5 +1,5 @@
 # Fantastic Embeddings and How to Align Them: Zero-Shot Inference in a Multi-Shop Scenario
-_Public Data Release 1.0.0_
+_Public Data Release 1.1.0_
 
 
 ### Overview
@@ -20,7 +20,7 @@ usage of the data implies the acceptance of these _Terms And Conditions_.
 The dataset is provided in five files inside a `zip` archive:
  
 * a `json` file, structured as list of lists. Each list contains a cross-shop session, that is, a shopping session initiated on *Shop A*
-and terminated on *Shop B*; items in each list are ordered chronologically, and they all have the syntax `SHOP1_SKU41`, that is
+and terminated on *Shop B* (and vice versa); items in each list are ordered chronologically, and they all have the syntax `SHOP1_SKU41`, that is
 an identifier of the shop (hashed) first, followed by `_` and a hashed identifier of the product the shopper interacted with. A sample
 `json` file is provided in this repo: cross-shop session `["SHOP1_SKU21", "SHOP1_SKU32", "SHOP2_SKU13"]` means that an anonymous
 shopper interacted with products `21` and `32` on the first shop, then browsed to the second shop and interacted with `13`. Please remember that
@@ -28,8 +28,8 @@ each shop has a different identifier policy, which makes the aligning problem in
 of 12 259 sessions;
 * two `json` files, labelled `original_vectors`, one for each shop: 
 they contain a map between product identifiers (hashed in the same way as in the cross-shop dataset)
-and related product embeddings _as trained separately for each shop_;
-* two `json` files, labelled `aligned_vectors` label, one for each shop: 
+and related product embeddings _as trained separately for each shop_ (a previous released included a `pickle` version - version _1.1.0_ and later are the recommended versions);
+* two `json` files, labelled `aligned_vectors`, one for each shop: 
 they contain a map between product identifiers 
 and related product embeddings, _after the alignment proposed in the [paper](https://arxiv.org/abs/2007.14906)_.
 
