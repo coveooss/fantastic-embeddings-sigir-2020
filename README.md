@@ -28,7 +28,7 @@ each shop has a different identifier policy, which makes the aligning problem in
 of 12 259 sessions;
 * two `json` files, labelled `original_vectors`, one for each shop: 
 they contain a map between product identifiers (hashed in the same way as in the cross-shop dataset)
-and related product embeddings _as trained separately for each shop_ (a previous released included a `pickle` version - version _1.1.0_ and later are the recommended versions);
+and related product embeddings _as trained separately for each shop_ (a previous release included a `pickle` file - versions >= _1.1.0_ are the recommended versions);
 * two `json` files, labelled `aligned_vectors`, one for each shop: 
 they contain a map between product identifiers 
 and related product embeddings, _after the alignment proposed in the [paper](https://arxiv.org/abs/2007.14906)_.
