@@ -25,16 +25,16 @@ an identifier of the shop (hashed) first, followed by `_` and a hashed identifie
 `json` file is provided in this repo: cross-shop session `["SHOP1_SKU21", "SHOP1_SKU32", "SHOP2_SKU13"]` means that an anonymous
 shopper interacted with products `21` and `32` on the first shop, then browsed to the second shop and interacted with `13`. Please remember that
 each shop has a different identifier policy, which makes the aligning problem interesting. The cross-shop dataset contains a total
-of 12.259 sessions.
-* two `pickled Python dictionaries` with the `original_vectors` label, one for each shop: 
+of 12.259 sessions;
+* two `json` files, labelled `original_vectors`, one for each shop: 
 they contain a map between product identifiers (hashed in the same way as in the cross-shop dataset)
-and related product embeddings _as trained separately for each shop_.
-* two `pickled Python dictionaries` with the `aligned_vectors` label, one for each shop: 
+and related product embeddings _as trained separately for each shop_;
+* two `json` files, labelled `aligned_vectors` label, one for each shop: 
 they contain a map between product identifiers 
 and related product embeddings, _after the alignment proposed in the [paper](https://arxiv.org/abs/2007.14906)_.
 
 
-We refer the reader to the original [work](https://arxiv.org/abs/2007.14906) for an extended explanation 
+We refer the reader to the original work for an extended explanation 
 of the alignment problem. Usage of this data implies the acceptance of the _Terms And Conditions_ as set forward in
 the [download page](https://www.coveo.com/en/ailabs/embeddings-and-how-to-align-them-zero-shot-inference-in-a-multi-shop-scenario).
 
